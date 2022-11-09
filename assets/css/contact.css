@@ -1,0 +1,89 @@
+/*contact css*/
+
+@charset "UTF-8";
+
+h2{
+    margin-bottom: 173px;
+    text-align: center;
+}
+
+h3{
+    margin-bottom: 85px;
+    font-size: 26px;
+}
+
+p{font-size: 20px;}
+
+.contact_box{
+    margin-bottom: 300px;
+}
+
+form dl{
+    width: 730px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form dt{
+  width: 145px;
+    
+    
+}
+
+form dt{
+    width:145px;
+}
+
+form .hissu{
+    width: 62px;
+    background-color: #fff;
+    border-radius: 20px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.alert{color: #F40000;}
+
+form input,textarea{
+    width:454px;
+    border-radius:20px ;
+    border:none;
+    height: 56px;
+    margin-bottom: 68px;
+}
+
+textarea{
+    height: 320px;
+    resize: none;
+    padding: 15px;
+}
+
+form .check{
+    margin-left: 375px;
+    margin-right: 134px;
+    background:rgba(222,118,145);
+}
+
+h3,p,address{
+    text-align: center;
+}
+
+
+
+.contact_boxbg{
+    background:rgba(222,118,145,0.1);
+    border-radius: 30px;
+    padding-top:96px;
+    padding-bottom: 96px;
+    padding-left: auto;
+    padding-right: auto;
+    margin-bottom: 80px;
+}
+
+.contact_boxbg ul{
+width:504px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 160px;
+}

@@ -1,0 +1,693 @@
+@charset "UTF-8";
+
+body,ul,p,h1,h2,h3,dl,dd{
+    padding: 0;
+    margin: 0 ;
+    list-style: none; 
+    font-family: "UD Digi Kyokasho N-B";
+}
+
+body{
+    width: 1260px;
+    margin: 0 auto;
+}
+
+address{
+    font-style: normal;
+}
+
+img{
+    vertical-align: bottom;
+}
+
+
+
+.d_f{display: flex;}
+.jc_s{justify-content: space-between;}
+.inner{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ----------------header---------------- */
+header{
+    width: 1260px;
+    height: 210px;
+    background-image: url(../images/top/bg_top.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    z-index: 2; 
+    display: flex;
+    justify-content: space-around;
+}
+
+
+header h1{
+    margin-top: 25px;
+    margin-left: 455px;
+}
+
+header .address{
+    margin-top: 50px;
+    margin-left: 175px;
+}
+
+header .address address{
+    padding-left: 15px;
+   
+}
+
+header .address .tel{
+    font-size: 16px;
+    line-height: 23px;
+    } 
+
+header .address div{
+    margin-bottom: 10px;
+}
+
+    header .address .h_address{
+        font-size: 11px;
+        line-height: 15px;
+    
+    }
+
+    header .address .icon_tel{
+        width: 23px;
+        height: 23px;
+    }
+
+    header .address .icon_place{
+        width: 23px;
+        height:27px;
+    }
+
+/* -----------レスポンシブ時表示----------- */
+header .link_icon,header>img{
+    display: none;
+}
+
+.fat-nav{
+    display: none;
+}
+
+/* ------------------------------------- */
+
+
+/* -------------スライド------------- */
+
+#slide{
+    position: relative;
+    top:135px;
+    overflow: hidden;
+    height: 850px;
+}
+
+#slide ul{
+    margin-top: px;
+    z-index: 1; 
+    width: 3780px;
+}
+#slide li{
+    float: left;
+    width: 100%;
+}
+
+#slide ul li img{
+height: 850px;
+}
+
+/* -------------------------------- */
+
+
+#slide{
+    position: relative;
+    top:135px;
+}
+
+/* ------------------レスポンシブ時表示------------------ */
+
+#slide_2{
+    position: relative;
+    top:90px;
+    display: none;
+}
+
+
+/* --------------------ナビゲーション-------------------- */
+
+nav{
+    background-image: url(../images/top/bg_top.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 210px;
+    margin-top: 130px;
+/*-------------------------- 以下２行追記------------------------- */
+    position: relative;
+    z-index: 3;
+}
+
+nav ul li a{
+ text-decoration: none;
+    color: black;
+}
+
+nav ul li{
+    margin-top: 60px;
+    font-size: 24px;
+}
+
+/* ---------チェックマーク--------- */
+
+nav ul li:first-child{
+    margin-top: 60px;
+    text-align: center;
+}
+/* ------------------------------ */
+
+
+nav ul li p{
+    color: white;
+}
+
+nav ul li a:hover{
+    color:white;
+}
+
+/* ------------------- 購入ボタン ------------------- */
+
+button{
+    height: 195px;
+    width: 195px;
+    position: fixed;
+    z-index: 10;
+    top: 70%;
+    left:83%;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #B3DFEA;
+    transition: 0.8s;
+    border: #B3DFEA solid 1px;
+}
+
+button:hover{
+    height: 195px;
+    width: 195px;
+    position: fixed;
+    z-index: 10;
+    top: 70%;
+    left:83%;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #DE7691;
+    border: #de7691 solid 1px;
+
+}
+
+button a{ 
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+    font-family: "UD Digi Kyokasho N-B";
+    border-radius: 50%;
+    padding: 45% 40%;
+} */
+
+/* ----------------------私たちについて---------------------- */
+
+main section,article{
+    margin-top: 200px;
+}
+
+/* ---------abou---------- */
+
+
+main section .content_title h3{
+  line-height: 75px;
+  margin-left: 20px;
+  color: #DE7691;
+  font-size: 30px;
+  
+}
+
+/* ------枠線------ */
+main .about{
+    background-image: url(../images/top/border_left\ \(1\).png);
+    background-repeat: no-repeat;
+}
+/* --------------- */
+
+
+main .about>img{
+    margin-top: 120px;
+    margin-left: 150px;
+}
+
+main .about .content{
+    margin-top: 120px;
+    margin-left: 50px;
+}
+
+
+
+main .about .content p{
+    font-size: 18px;
+    margin: 50px 0;
+    line-height: 50px;
+}
+
+/* ----------------------product---------------------- */
+
+
+/* ------枠線------ */
+main .product{
+    padding-top: 100px;
+    padding-left:40px;
+    background-image: url(../images/top/border_right.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+/* -------------- */
+
+main .product .title_re{
+    display: none;
+    margin: 10px auto;
+}
+
+main .photo{
+    width: 800px;
+}
+
+main .product>p{
+    font-size: 18px;
+    margin: 50px 0;
+    line-height: 40px;
+}
+
+/* -----------------------ニュース----------------------- */
+
+/* ---------枠線--------- */
+main article{
+    background-image: url(../images/top/border_left\ \(1\).png);
+    background-repeat: no-repeat;
+}
+/* --------------------- */
+
+main article .content_title{
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 500px;
+    line-height: 65px;
+    padding-top: 100px;
+}
+
+
+
+main article .content_title img{
+    margin-right: 30px;
+} 
+
+main article p{
+    font-size: 18px;
+    margin-top: 20px ;
+    margin-bottom: 100px;
+    margin-left: 120px;
+    line-height: 40px;
+}
+
+main article ul{
+    width:800px;
+    height:530px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+main article ul li img{
+height: 250px;
+width: 250px;
+}
+
+/* -----------------------footer----------------------- */
+footer{
+    margin-top: 200px;
+    background-image: url(../images/top/bg_footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 730px;
+}
+
+footer .f_contents{
+    
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.f_logo,footer .inner>p{
+    margin-top: 300px;
+}
+
+footer .f_logo{
+    width: 355px;
+}
+
+footer .f_logo address{
+    margin-top: 120px;
+}
+
+footer .f_logo address,p{
+    font-size: 20px;
+}
+
+footer div>p iframe{
+    width:540px ;
+    height:360px; 
+}
+
+footer .f_logo span{
+    font-size: 38px;
+}
+
+footer h2{
+    margin-top: 20px;
+}
+
+/* ------------------------------------------- */
+
+/* -----------------------レスポンシブ -----------------------*/
+
+@media screen and (max-width: 640px){
+    .inner{ 
+        width:auto;
+        margin:0;
+        }
+
+img{
+    max-width: 100%;
+}
+
+.d_f{flex-direction: column;}
+
+body{
+    width: auto;
+}
+
+h3 img{
+    margin: 60px auto;
+    width: 60%;
+    height:60%;
+}
+
+main article ul,footer .f_contents,main article .content_title{
+    width: auto;
+    
+}
+
+
+/* -------------header（common.cssと共通）------------- */
+
+header{ 
+    background-image: url(../images/common/respon_header_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 60%;
+    position: fixed;
+    top:0;
+    z-index: 2; 
+    width: 100%;
+    height: 153px;
+    padding-top: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: start;
+}
+
+header h1{
+    margin: 0;
+    height: auto;
+    width: 40%;
+    padding-left: 20px;
+}
+
+header h1 img{
+    height:25%;
+}
+
+header .address{
+    display: none;
+}
+
+/* -----------------レスポンス時表示----------------- */
+header .link_icon ,header>img{
+    display: block;}
+
+header .link_icon{
+        text-align: center;
+        width: 80px;
+        padding-left: 20px;
+        margin: 0 ;
+}
+
+
+header .link_icon img{
+    width:40%;
+    height:25%;
+}
+
+.fat-nav{
+    display: block;
+}
+
+
+/* --------------------mainvisual-------------------- */
+
+/* ----------------------slide---------------------- */
+#slide{
+    display: none;
+}
+
+#slide_2{
+    position: relative;
+    top:50px;
+    display: block;
+    margin-bottom: 150px;
+}
+
+/* --------------------------nav-------------------------- */
+nav{
+    display: none;
+}
+
+/* -------------------------button------------------------- */
+.button{
+display: none;
+}
+
+button{
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    z-index: 3;
+    top: 83%;
+    left:70%;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #B3DFEA;
+    transition: 0.8s;
+    border: #B3DFEA solid 1px;
+}
+
+button:hover{
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    z-index: 3;
+    top: 83%;
+    left:70%;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #DE7691;
+    border: #de7691 solid 1px;
+
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    line-height: 20px;
+    font-family: "UD Digi Kyokasho N-B";
+    border-radius: 50%;
+    border-radius: 50%;
+} 
+
+
+/*----------------------- main----------------------- */
+
+main{
+    margin-top: 100px;
+}
+
+main .about,main article,main .product{
+    background-size: 40% ;
+}
+
+/* about */
+main .about{
+    flex-direction: column-reverse;
+}
+
+main .about>img{
+    display: none;
+}
+
+main .about .content{
+    text-align: center;
+    margin-top: 0px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    width: 90%;
+}
+
+main .about .content p{
+   font-size: 18px;
+    margin: 50px 0;
+    line-height: 30px;
+}
+
+/* -------------------------product------------------------- */
+
+main .product{
+    margin-top: 100px;
+    padding-top: 0;
+    padding-left:0;
+    text-align: center;
+}
+
+main .product .title_pr{
+    display: none;
+}
+
+main .product .title_re{
+    display: block;
+}
+
+main .photo{
+    width: 80%;
+    margin: 10px auto;
+}
+
+main .photo img{
+  width: 60%;
+  height:60%;
+}
+
+main .photo .hakutou{
+    margin-left: 40%;
+}
+
+main .product>p{
+    width:80%;
+    font-size: 18px;
+    margin: 50px auto;
+    line-height: 30px;
+}
+
+/* ------------------------article------------------------ */
+
+main article .content_title{
+    text-align: center;
+    display: block;
+    margin: 0;
+    padding-top: 0;
+}
+
+main article .content_title h3{
+    margin: 75px auto 0;
+    height: 80%;
+    width: 80%;
+
+}
+
+main article .content_title a img{
+   display: none;
+}
+
+main article  p{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+main article ul{
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    margin-right:auto;
+    margin-left: auto;
+    height: auto;
+}
+
+main article ul li{
+    text-align: center;
+    margin: 10px 0;
+}
+
+main article ul li img{
+    width: 80%;
+    height: 90%;
+}
+
+/* -------------footer（common.cssと共通）------------- */
+
+footer{
+    height: auto;
+    background-image: url(../images/common/respon_footer_bg.png);
+    background-size: 100% 100%;
+    height: 300px;
+
+}
+
+.f_logo,footer .inner>p{
+    margin-top: auto;
+}
+
+footer div>p iframe{
+    display: none;
+}
+
+
+footer .f_logo address{
+    margin-top: auto;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+footer .f_logo p ,footer .f_logo span{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+
+footer .f_contents{
+    width: auto;
+    text-align: center;
+    padding-top: 0;
+    padding-top: 100px;
+}
+
+footer img{
+    height: 60%;
+    width: 60%;
+    height:auto;
+}
+
+footer h2{
+    margin-top: 30px;
+}
+
+.active .hamburger__icon{
+    display: none;
+}
+
+}

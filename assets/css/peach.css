@@ -1,0 +1,100 @@
+/*peach css*/
+
+@charset "UTF-8";
+
+
+h2{
+    text-align: center;
+    margin-bottom: 155px;
+}
+
+/* --枠線-- */
+.momo_type{
+    background-image: url(../images/top/border_left\ \(1\).png);
+    background-repeat: no-repeat;
+}
+/* ------ */
+
+/* --枠線-- */
+
+.momo_box1{
+    border-bottom: 0.3px solid #000;
+}
+
+.momo_type{
+    padding-top: 100px;
+    background-image: url(../images/top/border_left\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    margin-bottom: 330px;
+}
+/* ---- */
+
+.main_p{
+    margin-bottom: 163px;
+}
+
+.momo_type h3{
+    height: 224px;
+    background-image: url(../images/peach/logo_h3.png);
+    background-repeat: no-repeat;
+    text-decoration: underline 1px;
+    text-underline-offset: 12px;
+    font-size: 48px;
+    line-height: 224px;
+    padding-left: 120px;
+    margin-left: 70px;
+    
+}
+
+.type_p{
+    margin-left: 350px;
+    font-size: 18px;
+    margin-bottom: 70px;
+}
+
+/*商品ページへボタン*/
+
+.btn_bg{
+    box-sizing: border-box;
+    width: 265px;
+    height: 60px;
+    background-image: url(../images/peach/btn_syouhin.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    margin-right: 60px;
+}
+
+
+.momotype_btn{
+    box-sizing: border-box;
+    width: 265px;
+    border: 0.5px solid #000;
+    border-radius: 20px;
+    line-height: 60px;
+    padding-left: 45px;
+
+    
+}
+
+.momo_box2{
+    margin-top: 160px;
+}
+
+.momo_box2 h3{
+    margin-bottom: 50px;
+}
+
+p{
+    line-height: 40px;
+}
+
+.momo_box2_p{
+    margin-bottom: 152px;
+}
+
+.box2_bg{
+    background-image: url(../images/peach/momo_hanbun.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+}

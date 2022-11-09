@@ -1,0 +1,14 @@
+nav {
+    transition: .0s;
+  }
+  .is-fixed {
+    position: fixed;
+    margin: 0 auto 0;
+    top: 0;
+    z-index: 3;
+    width: 1260px;
+    background-size:cover ;
+  }
+  .is-hide {
+    transform: translateY(-100%);
+  }

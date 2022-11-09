@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+figure{
+    margin: 0px;
+    justify-content: center;
+}
+
+h3{
+    margin-bottom: 50px;
+    text-align: center;
+}
+/* 桃狩り */
+.picking_1{
+    margin-bottom: 100px;
+}
+
+.picking_1 h2{
+text-align: center;
+}
+
+.picking_1 img{
+margin-left: auto;
+margin-right: auto;
+}
+
+/* ご予約と受付 */
+.picking_2{
+    margin-bottom: 100px;
+}
+
+.picking_tel{
+    font-size:48px;
+    line-height: 50px;
+    margin-top: 60px;
+    text-align: center;
+    
+}
+
+.picking_name{
+    font-size: 18px;
+    line-height:1;
+    text-align: center;
+}
+
+/* 桃狩りの（左）期間・（右）料金 */
+.picking_3{
+    margin-bottom: 100px;
+}
+.picking_3 h3{
+    text-align: left;
+}  
+
+section dt{
+    float :left;
+    clear : left;
+}
+
+section dd{
+    padding-left: 135px;
+}
+
+
+.photo_01{
+    margin-bottom: 50px;
+}
+/* アクセス */
+.picking_4{
+    margin-bottom: 50px;
+}
+
+/* 桃狩り後の楽しみ */
+.picking_5{
+    margin-bottom: 50px;
+}
+
+.photo_02{
+    margin-bottom: 150px;
+}
+
+/* 感染症対策 */
+.picking_6{
+    margin-bottom: 150px;
+}
+
